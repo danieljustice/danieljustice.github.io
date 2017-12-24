@@ -1,4 +1,4 @@
-title: Wendell Thomas
+title: Daniel Justice
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -12,7 +12,7 @@ blog_theme: dark # Or use dark
 name: Daniel Justice
 tagline: Full Stack Developer
 about-description: # Add Discription
-pic: 79.jpg  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
+pic: sprite_1.png  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
 
 # Contact links
 email: artemsheludko@tuta.io # Add your Email address
