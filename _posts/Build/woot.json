@@ -1,0 +1,11 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "woot.data.unityweb",
+"asmCodeUrl": "woot.asm.code.unityweb",
+"asmMemoryUrl": "woot.asm.memory.unityweb",
+"asmFrameworkUrl": "woot.asm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
