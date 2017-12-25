@@ -10,17 +10,20 @@ blog_theme: dark # Or use dark
 
 # Profile information
 name: Daniel Justice
-tagline: Full Stack Developer
-about-description: # Add Discription
+tagline: Software Engineer and Game Developer
+about-description: Welcome to my little corner of the InterWebs! I am Software Engineer, Mechanical Engineer and Game Developer.
+                    This site is currently still under construction but feel free to poke around. Soon to come will be multiple blog posts, 
+                    a more in depth about me and some video games I and my collegues have created!
+                   # Add Discription
 pic: sprite_1.png  # Place a 200x200 picture inside /assets/img/ folder and provide the name of the file below
 
 # Contact links
-email: artemsheludko@tuta.io # Add your Email address
-phone: 044 825 5523 # Add your Phone number
-website: artemsheludko.pw # Add your website, do not add http://
+email: danieljustice09@gmail.com # Add your Email address
+phone: 443 624 5723 # Add your Phone number
+website: danieljustice.github.io # Add your website, do not add http://
 linkedin: # Add your Linkedin handle
-github: artemsheludko # Add your Github handle
-twitter: '@artemsheludko_' # Add your Twitter handle
+github: danieljustice # Add your Github handle
+#twitter: '@artemsheludko_' # Add your Twitter handle
 
 # Tracker
 analytics:
