@@ -1,0 +1,11 @@
+{
+"TOTAL_MEMORY": 404750336,
+"dataUrl": "CysticFiBlaster.data.unityweb",
+"asmCodeUrl": "CysticFiBlaster.asm.code.unityweb",
+"asmMemoryUrl": "CysticFiBlaster.asm.memory.unityweb",
+"asmFrameworkUrl": "CysticFiBlaster.asm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
