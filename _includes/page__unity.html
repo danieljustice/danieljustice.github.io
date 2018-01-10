@@ -4,6 +4,7 @@
 <script>
   var gameInstance = UnityLoader.instantiate("gameContainer", "{{ site.baseurl}}/assets/unity/{{page.unity_dir}}/Build/{{page.unity_dir}}.json",{onProgress: UnityProgress});  
 </script>
-<div class="webgl-content">
+<!-- <div class="webgl-content"> This webgl-content class in unity uses an abolute position and it messes up spacing. -->
+<div>
   <div id="gameContainer" style="width: 960px; height: 600px"></div>
 </div>
