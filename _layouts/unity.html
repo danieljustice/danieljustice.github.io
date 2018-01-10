@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="page-header">
+    <h1 class="page-title">{{page.title}}</h1>
+    <span class="page-list-date">
+        <i class="fa fa-calendar-o" aria-hidden="true"></i> {{ page.date | date: "%B %-d, %Y" }}
+    </span>
+</div>
+<div style="text-align:center">
+    {% if page.unity_dir %}
+        <h3>{{page.game-description}}</h3>
+        {% include page__unity.html %}
+        {% if page.contributors %}
+            <span>Contributors: {{page.contributors}}</span>
+        {% endif %}
+    {% else %}
+        <h2 style="text-align: center">This is not the game you are looking for.</h2>
+    {% endif %}
+</div>
+<div class="post-container">
+<div class = "post-content">
+    <article markdown="1">
+    {% if page.author %}
+        <div class="date-byline"><span><i class="fa fa-calendar-o" aria-hidden="true"></i> {{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span><span><i class="fa fa-pencil-square-o" aria-hidden="true"></i> {{page.author}}</span></div>
+    {% endif %}
+    {{page.content | markdownify}}
+    </article>
+    {% include share.html %}
+    {% include disqus.html %}
+</div>
+</div>
